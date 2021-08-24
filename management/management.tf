@@ -104,15 +104,25 @@ resource "metalcloud_infrastructure" "management" {
 
     instance_array_firewall_managed = false
 
-    interface{
-    	interface_index = 0
-      network_label = "data-network"
-    }
+    # interface{
+    # 	interface_index = 0
+    #   network_label = "data-network"
+    # }
 
-    interface{
-    	interface_index = 1
-      network_label = "data-network"
-    }
+    # interface{
+    # 	interface_index = 1
+    #   network_label = "data-network"
+    # }
+
+    # interface{
+    #  	interface_index = 2
+    #   network_label = "storage-network"
+    # }
+
+    # interface{
+    # 	interface_index = 3
+    #   network_label = "storage-network"
+    # }
 
     
      instance_array_additional_wan_ipv4_json = jsonencode(
