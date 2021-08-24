@@ -4,7 +4,7 @@ This example configures a management infrastructure and two 'tenant' infrastruct
 
 ## Required versions 
 * Terraform v1.0.4
-* MetalCloud provider 1.0.13
+* MetalCloud provider 1.0.17
 
 
 ## Usage
